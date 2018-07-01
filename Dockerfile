@@ -74,4 +74,4 @@ EXPOSE 7088 8088 8188 8089
 
 EXPOSE 32000-32200/udp
 
-CMD [ "sh","-c","/opt/janus/bin/janus","-1","${PUB_IP}" ]
+CMD /opt/janus/bin/janus
